@@ -1,0 +1,684 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 375px;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 149.5px 22px 32px;
+}
+
+.icons {
+    height: 64px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 149.5px 22px 32px;
+}
+
+.close {
+    width: 18px;
+    height: 18px;
+}
+
+.logo-menu {
+    width: 75.5px;
+    height: 20px;
+}
+
+.mobile-menu {
+    width: 375px;
+    height: 667px;
+    position: absolute;
+    z-index: 2;
+    margin-top: -1000px;
+}
+
+.menu {
+    width: 256px;
+    height: 603px;
+    padding: 64px 32px 24px 32px;
+    background-color: #333a44;
+}
+
+a {
+    display: block;
+    height: 25px;
+    font-family: Space Mono;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: left;
+    color: #e5ecf4;
+    margin-bottom: 24px;
+}
+
+.menu button {
+    width: 192px;
+    height: 53px;
+    margin: 315px 0 0 0;
+    padding: 14px 0;
+    background-color: #fcb72b;
+    border: none;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;    
+}
+
+.menu-background {
+    width: 119px;
+    height: 603px;
+    position: absolute;
+    top: 64px;
+    right: -119px;
+    right: 0;
+    bottom: 0;
+    opacity: 0.75;
+    background-color: #000000;
+}
+
+.full-menu {
+    margin-top: 0;
+}
+
+.hamburger {
+    width: 19.7px;
+    height: 16px;
+}
+
+.main-logo {
+    width: 75.5px;
+    height: 20px; 
+}
+
+.wrapper {
+    height: 650px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+.hero-mobile {
+    position: absolute;
+    width: 375px;
+    height: 650px;
+    z-index: -1;
+}
+
+.content {
+    width: 375px;
+    padding: 115px 32px 0;
+}
+
+.content h2 {
+    width: 311px;
+    height: 120px;
+    font-family: Space Mono;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 40px;
+    letter-spacing: -1.79px;
+    text-align: center;
+    color: #fff;
+}
+
+.content p {
+    width: 311px;
+    height: 125px;
+    margin: 24px 0 34px 0;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+}
+
+.content button {
+    width: 180px;
+    height: 53px;
+    margin: 0 65px 0 66px;
+    padding: 14px 39px;
+    background-color: #fcb72b;
+    border: none;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+.arrow-mob {
+    margin-top: -3px;
+    margin-left: -340px;
+}
+
+.offers {
+    padding: 120px 32px;
+}
+
+.offers img {
+    width: 56px;
+    height: 56px;
+    margin: 0 127px 24px 128px;
+}
+
+.offers h3 {
+    width: 311px;
+    height: 28px;
+    margin: 0 0 24px;
+    font-family: Space Mono;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+    letter-spacing: -0.89px;
+    text-align: center;
+    color: #495567;
+}
+
+.offers p {
+    width: 311px;
+    height: 100px;
+    margin: 0 0 48px;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #939caa;
+}
+
+.easy, .near, .pay {
+    width: 311px;
+    height: 311px;
+    border-radius: 50%;
+    position: relative;
+    z-index: -1;
+}
+
+.telemetry, .payments, .near-you {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 32px 120px;
+    overflow: hidden;
+}
+
+.arrow1, .arrow2, .arrow3 {
+    position: absolute;
+    z-index: 1;
+}
+
+.arrow1 {
+    margin: 160px 0 0 -5px;
+}
+
+.arrow2 {
+    margin: 0 0 0 -235px;
+}
+
+.arrow3 {
+    margin: 0 0 0 100px;
+}
+
+
+.telemetry h2, .payments h2, .near-you h2 {
+    width: 311px;
+    height: 64px;
+    margin: 65px 0 32px;
+    font-family: Space Mono;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: -1.43px;
+    text-align: center;
+    color: #495567;
+}
+
+.telemetry p, .payments p, .near-you p {
+    width: 311px;
+    height: 150px;
+    margin: 0 0 32px;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #939caa;
+}
+
+.telemetry button, .payments button, .near-you button {
+    width: 180px;
+    height: 53px;
+    margin: 0 65px 0 66px;
+    padding: 14px 43.5px 14px 44.5px;
+    border: none;
+    background-color: #fcb72b;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+}
+
+.sign-up {
+    width: 375px;
+    height: 320px;
+    padding: 88px 32px;
+    background-color: #495567;  
+    background-image: url(images/patterns/semi-circles.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left -600px;
+}
+
+.sign-up h3 {
+    width: 311px;
+    height: 64px;
+    font-family: Space Mono;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: -1.43px;
+    text-align: center;
+    color: #fff;  
+    margin-bottom: 40px; 
+}
+
+.join {
+    display: flex;
+}
+
+.app-store {
+    width: 113.6px;
+    height: 40px;
+    margin-right: 13px;
+    margin-left: 28px;
+}
+
+.google-store {
+    width: 130px;
+    height: 40px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 375px;
+    height: 438px;
+    padding: 64px 127px 88px 128px;
+    background-color: #333a44;
+}
+
+.logo {
+    margin-bottom: 41.5px;
+    filter: grayscale(100%) brightness(0) invert(1);
+}
+
+.footer h5 {
+    margin: 0 14px 16px;
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 25px;
+    color: #939caa;
+    margin-bottom: 16px;
+}
+
+.media {
+    display: flex;
+    margin-top: 67px;
+}
+
+.facebook {
+    margin-right: 23px;
+}
+
+.twitter {
+    margin-right: 23px;
+    align-self: center;
+}
+
+.comp-menu, .hero-comp, .line, .arrow-comp, .blue-line {
+    display: none;
+}
+
+@media screen and (min-width:1440px) {
+
+    .mobile-menu, .hamburger, .hero-mobile, .arrow-mob {
+        display: none;
+    }
+
+    .comp-menu, .hero-comp, .line, .arrow-comp, .blue-line {
+        display: block;
+    }
+
+    .container {
+        width: 1440px;
+    }
+
+    .header {
+        height: 96px;
+        position: unset;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 22px 165px 21px 169px;
+    }
+
+    .comp-menu {
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+    }
+    
+    a {
+        font-size: 15px;
+        color: #939caa;
+        margin: 0 32px 0 0;
+        cursor: pointer;
+    }
+
+    a:hover {
+        color: #fcb72b;
+    }
+
+    .careers {
+        margin: 0;
+    }
+    
+    .comp-menu button {
+        margin: 0 0 0 511px; 
+        width: 192px;
+        height: 53px;
+        padding: 14px 0;
+        background-color: #fcb72b;
+        border: none;
+        font-family: Space Mono;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 25px;
+        text-align: center;
+        color: #fff;   
+        cursor: pointer;
+    } 
+
+    .comp-menu button:hover {
+        background-color: #fff;
+        border: solid 3px #fcb72b;
+        color: #fcb72b;
+    }
+    
+    .main-logo {
+        width: 107.8px;
+        height: 28.6px;
+        margin-right: 58px;
+    }
+    
+    .wrapper {
+        width: 1440px;
+        height: 650px;
+        background-image: url(images/patterns/white-circles.svg);
+        background-repeat: no-repeat;
+        background-position: right -45px bottom 165px;
+    }
+    
+    .hero-comp {
+        position: absolute;
+        width: 1440px;
+        height: 650px;
+        z-index: -1;
+    }
+    
+    .content {
+        width: 1440px;
+        height: 650px;
+        padding: 153px 165px;
+    }
+    
+    .content h2 {
+        width: 500px;
+        height: 112px;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -2.5px;
+        text-align: start;
+    }
+    
+    .content p {
+        width: 405px;
+        height: 100px;
+        line-height: 25px;
+        margin: 40px 0 40px 95px;
+        text-align: start;
+    }
+    
+    .content button {
+        margin: 0 0 0 95px;
+        cursor: pointer;
+    }
+
+    .content button:hover {
+        background-color: #737375;
+        font-size: 14.5px;
+        border: solid 2px #fcb72b;
+        color: #fcb72b;
+    }
+    
+    .line {
+        position: absolute;
+        z-index: 1;
+        margin-top: 195px;
+        margin-left: -165px;
+    }
+
+    .arrow-comp {
+        position: absolute;
+        z-index: 0;
+        margin-top: 194px;
+        margin-left: 540px;
+    }
+
+    .offers {
+        position: relative;
+        padding: 160px 165px 200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .offers img {
+        width: 96px;
+        height: 96px;      
+        margin: 0 0 40px;
+    }
+    
+    .offers h3 {
+        margin: 0 0 27px;
+        font-size: 24px;
+        letter-spacing: -1.07px;
+        text-align: start;
+    }
+    
+    .offers p {
+        text-align: start;
+        margin: 0;
+    }
+
+    .blue-line {
+        width: 974px;
+        height: 1px;
+        border: solid 7px #e5ecf4;
+        position: absolute;
+        z-index: -1;
+        margin-top: 205px;
+    }
+
+    .telemetry, .payments {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        padding: 0 165px 160px;
+        overflow: hidden;
+        background-image: url(images/patterns/circle.svg);
+        background-repeat: no-repeat;
+        background-position: right -340px top;
+    }
+
+    .near-you {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: unset;
+        align-items: center;
+        position: relative;
+        padding: 0 165px 160px;
+        overflow: hidden;
+        background-image: url(images/patterns/circle.svg);
+        background-repeat: no-repeat;
+        background-position: left -340px top;
+    }
+
+    .easy, .near, .pay {
+        width: 445px;
+        height: 445px;
+    }
+    
+    .arrow1, .arrow2, .arrow3 {
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .arrow1 {
+        margin: 310px -170px 0 0;
+    }
+    
+    .arrow2 {
+        margin: -300px 0 0 -260px;
+    }
+    
+    .arrow3 {
+        margin: -135px -550px 0 0;
+    }
+    
+    .telemetry h2, .payments h2, .near-you h2 {
+        width: 445px;
+        height: 96px;
+        margin: 0 0 24px;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14px;
+        text-align: start;
+    }
+    
+    .telemetry p, .payments p, .near-you p {
+        width: 445px;
+        height: 100px;
+        margin: 0 0 40px;
+        text-align: start;
+    }
+    
+    .telemetry button, .payments button, .near-you button {
+        margin: 0;
+        cursor: pointer;
+    }
+
+    .telemetry button:hover, .payments button:hover, .near-you button:hover {
+        background-color: #fff;
+        border: solid 2px #fcb72b;
+        font-size: 14px;
+        color: #fcb72b;
+    }
+
+    .sign-up {
+        width: 1440px;
+        height: 300px;
+        padding: 102px 165px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #495567;  
+        background-image: url(images/patterns/semi-circles.svg);
+        background-repeat: no-repeat;
+        background-position: bottom right -160px;
+    }
+    
+    .sign-up h3 {
+        width: 415px;
+        height: 96px;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14px;
+        text-align: start; 
+        margin-bottom: 0; 
+    }
+    
+    .app-store {
+        width: 159px;
+        height: 56px;
+        margin-right: 18px;
+        margin-left: 0;
+    }
+    
+    .google-store {
+        width: 182px;
+        height: 56px
+    }
+    
+    .footer {
+        display: flex;
+        align-items: center;
+        flex-direction: unset;
+        width: 1440px;
+        height: 96px;
+        padding: 35px 165px 32px 168px;
+    }
+    
+    .logo {
+        margin-right: 59px;
+        margin-bottom: 0;
+    }
+    
+    .footer h5 {
+        margin: 0 32px 0 0;
+        cursor: pointer;
+    }
+
+    .footer h5:hover {
+        color: #fcb72b;
+    }
+    
+    .media {
+        display: flex;
+        margin-top: 0;
+        margin-left: 540px;
+    }
+
+    .instagram {
+        cursor: pointer;
+    }
+    
+    .facebook {
+        margin-right: 24px;
+        cursor: pointer;
+    }
+    
+    .twitter {
+        margin-right: 24px;
+        cursor: pointer;
+    }
+
+    .instagram:hover, .facebook:hover, .twitter:hover {
+        filter: grayscale(100%) brightness(0) invert(1);    
+    }
+}
